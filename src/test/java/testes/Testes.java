@@ -17,4 +17,13 @@ public class Testes {
 		assertEquals( soma, 6 );
 	}
 
+	@Test
+	void test02(){
+		Calculator cal02 = new Calculator();
+
+		int soma = cal02.soma(4,4);
+
+		assertEquals(soma, 8);
+	}
+
 }
